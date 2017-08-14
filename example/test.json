@@ -1,0 +1,28 @@
+[{
+    "number": "1",
+    "id": "1234",
+    "url": "img/ej-sf-1.jpg",
+    "alt": "Market Street",
+    "caption": "Market Street Streetcar"
+}, {
+    "number": "2",
+    "url": "img/ej-sf-2.jpg",
+    "alt": "Sutro Tower",
+    "caption": "Sutro Tower",
+    "bgImage": true
+}, {
+    "number": "3",
+    "url": "img/ej-sf-3.jpg",
+    "alt": "Bay Bridge",
+    "caption": "Bay Bridge"
+}, {
+    "number": "4",
+    "url": "img/ej-sf-4.jpg",
+    "alt": "BART",
+    "caption": "Bicycle on BART"
+}, {
+    "number": "5",
+    "url": "img/ej-sf-5.jpg",
+    "alt": "BART",
+    "caption": ""
+}]

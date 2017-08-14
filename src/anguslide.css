@@ -1,0 +1,70 @@
+/* AnguSlide required CSS */
+
+.my-slide-block {
+    display: block;
+    height: 400px;
+    overflow: hidden;
+}
+
+.input {
+    background: #eee;
+    display: block;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+.slide-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide-image-bg {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-indent: -999em;
+ }
+
+.slide-image {
+    width: 100%;
+    height: auto;
+ }
+
+.link-overlay {
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0.5em;
+    left: 25%;
+    z-index: 2;
+    background: #fff;
+    text-align: center;
+    width: 50%;
+    padding: 0.2em;
+}
+
+.slide-pagination {
+
+
+}

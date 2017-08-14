@@ -1,0 +1,46 @@
+
+<html ng-app="testApp">
+
+<head>
+<title>AnguSlide - Yep, Another AngularJS Slideshow Plugin</title>
+<meta charset="utf-8" />
+
+<script src="../vendor/angular.min.js"></script>
+<script src="../src/anguslide.js"></script>
+<script src="test.js"></script>
+<link rel="stylesheet" href="../src/anguslide.css"></link>
+<link rel="stylesheet" href="test.css"></link>
+
+</head>
+<body>
+
+<section>
+
+    <header>
+    <h1>
+        <p class="logo">AnguSlide.js</p>
+    </h1>
+    </header>
+
+    <article ng-controller="exampleCtrl">
+
+
+        <h2>Examples</h2>
+
+        <div class="input">
+        <textarea ng-model="textArea"></textarea>
+        <button ng-click="startSlideshow()" type="button">Start Slideshow</button>
+        </div>
+
+        <slide-show class="my-slide-block" slides="slideData" config="slideConfig"></slide-show>
+
+        <slide-show class="my-slide-block" slides="slideData" config="slideConfigVertical"></slide-show>
+
+
+
+    </article>
+</section>
+</body>
+
+</html>
+

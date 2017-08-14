@@ -1,0 +1,21 @@
+
+inputField
+__________________
+
+describe('typical entry', function() {
+
+it('should enter a value', function() {
+
+    enterValue(1);
+    expect(input.value).toBe(1);
+
+});
+
+it('should enter a value', function() {
+
+    enterValue(1);
+    expect(input.value).toBe(1);
+
+});
+
+});
